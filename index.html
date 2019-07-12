@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+<title> Template-2 </title>
+
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/custom.css">
+
+ <script src="javasc/javascript.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+ </head>
+<body>
+
+
+<!--NAVBAR-->
+<div class="navbar" >
+  <div class="nav-left">
+<a class="nav-link" id="top-left" href="#" style="float:left"><span id="logo" >B</span></a>
+  <li  id="link_top">
+    <a class="nav-link" href="#">Home</a>
+  </li>
+  <li id="link_top">
+    <a class="nav-link" href="document.html">Documentation</a>
+  </li>
+  <li id="link_top">
+    <a class="nav-link" href="#">Examples</a>
+  </li>
+  <li id="link_top">
+    <a class="nav-link" href="#">Themes</a>
+  </li>
+  <li id="link_top">
+    <a class="nav-link" href="#">Expo</a>
+    </li>
+  <li id="link_top">
+    <a class="nav-link" href="#">Blog</a>
+  </li>
+
+</ul>
+</div>
+
+
+
+
+<div class="nav-right">
+<div class="dropdown" >
+ <button onclick="myFunction()" class="dropbtn" id="dropbtn">v4.3
+   <i class="fas fa-caret-down"></i>
+ </button>
+ <div id="myDropdown" class="dropdown-content">
+   <a href="#">Latest (4.3.x)</a>
+   <a href="#">v4.2.1</a>
+   <a href="#">v4.0.0</a>
+   <hr>
+   <a href="#">v4 3.4.1</a>
+   <a href="#">v4 3.3.7</a>
+   <a href="#">v4 2.3.2</a>
+
+   <hr>
+   <a href="#">All versions</a>
+ </div>
+
+
+         <li id="link_top_r"><button type="button" id="download">Download</button> </li>
+<li id="link_top_r"><i class="fab fa-telegram fa-2x"  aria-hidden="true"></i></li>
+     <li id="link_top_r"><i class="fab fa-slack fa-2x" aria-hidden="true"></i></li>
+    <li id="link_top_r"><i class="fab fa-twitter fa-2x" aria-hidden="true"></i></li>
+      <li id="link_top_r"><i class="fab fa-github fa-2x"></i></li>
+
+</div>
+</div>
+</div>
+
+
+<!--SHOWCASE-->
+<div class="showc">
+  <div class="mycontainer-l">
+<h1 ><span id="showcase_heading">Bootstrap<span></h1>
+  <p id="showcase_font">Build responsive, mobile-first projects on the web with the <br>
+  world’s most popular front-end component library. <br>
+  <br>
+Bootstrap is an open source toolkit for developing with <br>
+HTML, CSS, and JS. Quickly prototype your ideas or build <br>
+your entire app with our Sass variables and mixins, <br>
+responsive grid system, extensive prebuilt components, <br>
+and powerful plugins built on jQuery. </p>
+
+
+<button type="button" id="get_started">Get Started</button>
+
+  <button type="button" id="download-2">Download</button>
+<p id="version">Currently v4.3.1 </p>
+</div>
+
+
+<div class="mycontainer-r">
+<img src="bootstrap.png" alt="Bootstrap" length=530px width=530px>
+  </div>
+
+</div>
+
+
+
+<br>
+<!--Three Containers in a row-->
+
+<div class="c_row">
+  <div class="c_col" >
+    <div class="data">
+    <i class="fa fa-download " aria-hidden="true"></i>
+<h2> Installation</h2>
+<p>Include Bootstrap’s source Sass and JavaScript<br>
+files via npm, Composer or Meteor. Package<br>
+ managed installs don’t include documentation,<br>
+  but do include our build system and readme.</p>
+
+  <p><span>$</span> npm install bootstrap</p>
+  <p><span>$</span> gem install bootstrap -v 4.3.1</p>
+  <hr id="break">
+  <button type="button" id="extra1">Read installation docs</button>
+</div>
+
+</div>
+
+
+
+  <div class="c_col" >
+
+  <div class="data">
+<i class="fa fa-microchip " aria-hidden="true"></i>
+
+    <h2>BootstrapCDN</h2>
+<p>When you only need to include Bootstrap’s
+compiled SS or JS, you can use BootstrapCDN.</p>
+<h3>CSS only</h3>
+
+<div class="scrollmenu">
+<pre><code><span id="b">&lt;link</span><span id="sb"> rel=</span><span id="r">"stylesheet"</span><span id="sb">href=</span><span id="r">"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"</span><span id="sb">integrity=</span><span id="r">"sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" </span><span id="sb">crossorigin=</span><span id="r">"anonymous"</span> <span id="b">&gt;</span>
+</code></pre>
+</div>
+
+
+<h3>JS, Popper.js, and jQuery</h3>
+<div class="scrollmenu">
+
+<pre><code><span id="b">&lt;script</span><span id="sb"> src=</span><span id="r">"https://code.jquery.com/jquery-3.3.1.slim.min.js" </span><span id="sb">integrity=</span><span id="r">"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"</span><span id="sb">crossorigin=</span><span id="r">"anonymous"</span><span id="b">&gt;&lt;/script&gt;</span>
+<span id="b">&lt;script</span><span id="sb"> src=</span><span id="r">"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"<span id="sb">integrity=</span><span id="r">"sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"</span><span id="sb"> crossorigin=</span><span id="r">"anonymous"</span><span id="b">&gt;&lt;/script&gt;</span>
+<span id="b">&lt;script</span><span id="sb"> src=</span><span id="r">"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"</span><span id="sb">integrity=</span><span id="r">"sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"</span><span id="sb"> crossorigin=</span><span id="r">"anonymous"</span><span id="b">&gt;&lt;/script&gt;</span></code></pre>
+</div>
+<hr id="break">
+  <button type="button" id="extra2">Explore the docs</button>
+</div>
+</div>
+
+  <div class="c_col" >
+      <div class="data">
+    <i class="fa fa-bolt " aria-hidden="true"></i>
+<h2>Official Themes</h2>
+<p>Take Bootstrap 4 to the next level with official<br>
+  premium themes—toolkits built on Bootstrap with <br>
+  new components and plugins, docs, and build tools. </p>
+  <img src="bootstrap-themes.png" alt="Bootstrap" length=200px width=370px>
+  <hr id="break">
+    <button type="button" id="extra3">Browse themes</button>
+  </div>
+</div>
+</div>
+
+<!--bottom-->
+
+
+<div class="bottom">
+
+  <div >
+<ul id="bottom-l">
+  <li class="bottom_link">
+  <a href="#" id="bottom_tag">Git Hub</a>
+  </li>
+  <li class="bottom_link">
+<a href="#" id="bottom_tag">Twitter</a>
+  </li >
+  <li class="bottom_link">
+<a href="#" id="bottom_tag">Examples</a>
+  </li>
+  <li class="bottom_link">
+<a href="#" id="bottom_tag">About</a>
+  </li>
+</ul>
+</div>
+<br>
+
+<p id="bottom_text">Designed and built with all the love in the world by the <a href="#" id="bottom_tag"> Bootstrap team </a> with the help of <a href="#" id="bottom_tag">our contributors</a>.<br>
+
+Currently v4.3.1. Code licensed <a href="#" id="bottom_tag">CWD</a>, docs<a href="#" id="bottom_tag"> CC BY 3.0</a>.</p>
+</div>
+
+
+
+
+
+
+</body>
+</html>
